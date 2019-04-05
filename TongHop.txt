@@ -1,6 +1,6 @@
 ﻿1. de chay mysql luc đầu => phải khởi động mysqld một lần 
 2. tao pass cho mysql lần đâu tiên
-
+==========================
 1.MySQL停止
 $ mysql.server stop
 
