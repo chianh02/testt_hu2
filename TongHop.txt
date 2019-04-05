@@ -1,0 +1,27 @@
+﻿1. de chay mysql luc đầu => phải khởi động mysqld một lần 
+2. tao pass cho mysql lần đâu tiên
+
+1.MySQL停止
+$ mysql.server stop
+
+2.MySQL起動
+$ mysql.server start --skip-grant-tables
+→パスワード無しで接続可能
+
+3.MySQLに接続
+$ mysql
+
+4.データベース選択
+use mysql;
+
+5.パスワードの更新
+update user set authentication_string=PASSWORD("新しいパスワードを記述") where User='root';
+flush privileges;
+
+6.MySQLを再起動
+
+MySQLの接続解除
+quit;
+MySQL再起動
+$ mysql.server stop
+$ mysql.server start
