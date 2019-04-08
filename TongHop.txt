@@ -10,6 +10,7 @@ test lan 4
 test lan 4-1
 test lan 4-2
 =========================
+test lan thu 5
 lan 5-1
 ==========================
 
