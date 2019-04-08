@@ -10,7 +10,8 @@ test lan 4
 test lan 4-1
 test lan 4-2
 =========================
-
+test lan thu 5
+===========================
 1.MySQL停止
 $ mysql.server stop
 
